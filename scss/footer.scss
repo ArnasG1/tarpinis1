@@ -1,0 +1,33 @@
+footer {
+  margin: 70px 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div.nav {
+    a {
+      margin-right: 25px;
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+
+  div.logos {
+    img {
+      width: 30px;
+      margin-right: 25px;
+    }
+  }
+  .logos {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  div.left {
+    width: 50%;
+  }
+  div.right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

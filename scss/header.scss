@@ -1,0 +1,24 @@
+header {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  line-height: 12px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  h4 {
+    font-weight: 400;
+  }
+  button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70px;
+    background: $blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

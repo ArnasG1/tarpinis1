@@ -1,0 +1,15 @@
+section.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  height: 400px;
+  background: $grey-white;
+  div {
+    text-align: center;
+    width: 250px;
+    img {
+      width: 100px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  margin-top: -3px;
+  margin-bottom: -50px;
+  background: $grey-white;
+}
+section.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  height: 500px;
+  margin-top: -3px;
+  background: $grey-white;
+  div {
+    text-align: center;
+    width: 250px;
+    img {
+      width: 100px;
+      border-radius: 50%;
+    }
+  }
+}

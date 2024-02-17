@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    max-width: 100%;
+    justify-content: space-between;
+    padding-inline: 20px;
+  }
+
+  section:is(.first, .fourth) {
+    & > div {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    form.sign-up {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      :is(input[type="email"], button) {
+        width: 100%;
+        margin-inline: 0;
+        max-width: 350px;
+      }
+    }
+  }
+
+  section.second {
+    flex-direction: column;
+    gap: 72px;
+    padding: 116px 20px;
+    height: auto;
+  }
+
+  section.description
+    div:is(.description-first, .description-second, .description-third) {
+    flex-direction: column;
+
+    & > div {
+      width: 100%;
+    }
+
+    & > div:nth-of-type(2) {
+      padding: 72px 36px;
+
+      h1 {
+        margin: 0 0 8px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  h1.third {
+    display: block;
+    margin: 32px 0;
+    padding: 64px 20px 24px;
+    text-align: center;
+    height: auto;
+  }
+  section.third {
+    margin-bottom: 6rem;
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+
+    & > div {
+      img {
+        width: 145px;
+      }
+      h1 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    margin: 0;
+    padding: 4rem 1rem;
+    text-align: center;
+
+    div.left {
+      width: 100%;
+
+      nav.item > a {
+        position: relative;
+        margin: 0;
+        padding: 1rem 0.75rem;
+      }
+    }
+  }
+}

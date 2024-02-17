@@ -1,0 +1,50 @@
+section.fourth {
+  background-image: url(../images/bg-masthead.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-top: -3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  .div-second {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1.text {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 2rem;
+      width: 600px;
+      color: white;
+    }
+  }
+  form {
+    input {
+      border: 0;
+      border-radius: 5px;
+      height: 35px;
+      width: 350px;
+      padding-left: 10px;
+    }
+    button {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100px;
+      height: 35px;
+      margin-left: 5px;
+      background: #007bff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
